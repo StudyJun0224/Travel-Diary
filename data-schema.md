@@ -30,8 +30,8 @@
 }
 ```
 ## Elements
-```json
 - type: image
+```json
 {
   "type": "image",
   "src": "...",
@@ -42,8 +42,9 @@
   "rotation": 15,
   "zIndex": 1
 }
-
+```
 - type: "text"
+```json
 {
   "type": "text",
   "content": "여행기록!",
