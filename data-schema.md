@@ -10,8 +10,9 @@
   "createdAt": "2025-06-29T09:00:00Z",
   "diaryIds": ["diary_001", "diary_002"]
 }
-
+```
 ## Diary
+```json
 {
   "id": "diary_001",
   "title": "제주도 여행기",
@@ -20,14 +21,16 @@
   "isPublic": false,
   "pages": [ { ... } ]
 }
-
+```
 ## Page
+```json
 {
   "pageNumber": 1,
   "elements": [ { ... } ]
 }
-
+```
 ## Elements
+```json
 - type: image
 {
   "type": "image",
@@ -53,3 +56,4 @@
   "rotation": 0,
   "zIndex": 2
 }
+```
